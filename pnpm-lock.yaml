@@ -9,6 +9,7 @@ specifiers:
   react-dom: 18.2.0
   react-icons: ^4.8.0
 
+
 dependencies:
   eslint: 8.38.0
   eslint-config-next: 13.3.0_eslint@8.38.0
