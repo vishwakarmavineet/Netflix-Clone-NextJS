@@ -1,3 +1,4 @@
+
 import React from 'react';
 import ContactCard from "@/app/components/ContactCard";
 import styles from "./contact.module.css";
