@@ -17,12 +17,12 @@ const Footer = () => {
                     <div className={footerStyles.top}>
                         <div className={footerStyles['logo-details']}>
                             {/*<i className={footerStyles.fab fa-slack]></i>*/}
-                            <span className={footerStyles.logo_name}>Thapa Technical</span>
+                            <span className={footerStyles.logo_name}>Netflix</span>
                         </div>
                         <div className={footerStyles[`media-icons`]}>
                             <Link href="#"><i > <FaFacebookF/> </i></Link>
                             <Link href="#"><i > <FaTwitter/> </i> </Link>
-                            <Link href="https://www.instagram.com/thapatechnical/" target="_blank"><i > <FaInstagram/>  </i></Link>
+                            <Link href="#" target="_blank"><i > <FaInstagram/>  </i></Link>
                             <Link href="#"><i > <FaLinkedinIn /> </i></Link>
                             <Link href="#"><i > <FaYoutube />  </i></Link>
                         </div>
@@ -34,13 +34,6 @@ const Footer = () => {
                             <li><a href="#">Contact us</a></li>
                             <li><a href="#">About us</a></li>
                             <li><a href="#">Get started</a></li>
-                        </ul>
-                        <ul className={footerStyles.box}>
-                            <li className={footerStyles.link_name}>Services</li>
-                            <li><a href="#">App design</a></li>
-                            <li><a href="#">Web design</a></li>
-                            <li><a href="#">Logo design</a></li>
-                            <li><a href="#">Banner design</a></li>
                         </ul>
                         <ul className={footerStyles.box}>
                             <li className={footerStyles.link_name}>Account</li>
@@ -66,7 +59,7 @@ const Footer = () => {
                 <div className={footerStyles['bottom-details']}>
                     <div className={footerStyles.bottom_text}>
                         <span className={footerStyles.copyright_text}> Copyright © 2023
-                            <Link href="/>"> Thapa Technical.</Link> All rights reserved </span>
+                            <Link href="/>"> Netflix.</Link> All rights reserved </span>
                         <span className={footerStyles.policy_terms}>
                           <Link href="/">Privacy policy</Link>
                           <Link href="/">Terms & condition</Link>

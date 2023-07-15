@@ -18,9 +18,7 @@ const Herosection = ({title, imageUrl}) => {
                 <div className={styles.grid_two_section}>
                     <div className={heroStyles.hero_content}>
                         <h1>{title}</h1>
-                        <p> From award-winning dramas to blockbuster action movies, we&apos;ve got you covered. Browse
-                            our
-                            selection of the latest and greatest movies, and find your new favorite today.
+                        <p> At Netflix, we want to entertain the world. Whatever your taste, and no matter where you live, we give you access to best-in-class TV series, documentaries, feature films and mobile games. Our members control what they want to watch, when they want it, in one simple subscription. We’re streaming in more than 30 languages and 190 countries, because great stories can come from anywhere and be loved everywhere. We are the world’s biggest fans of entertainment, and we’re always looking to help you find your next favorite story.
                         </p>
                         <Link href="/movie">
                             <button className={mulish.className}>
